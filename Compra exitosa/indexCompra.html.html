@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compra de Artículos | Industria Alcobas 2JACK</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Encabezado -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Industria Alcobas 2JACK</h1>
+    <nav>
+      <a href="index.html" class="mx-2 text-blue-500">Inicio</a>
+      <a href="productos.html" class="mx-2 text-blue-500">Productos</a>
+      <a href="contacto.html" class="mx-2 text-blue-500">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Sección de productos -->
+  <section class="p-8">
+    <h2 class="text-xl font-semibold mb-6">Compra tus artículos favoritos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Producto 1 -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="amario.jpg" alt="Imagen de un armario" width="500" height="300">
+        <h3 class="text-lg font-semibold mt-4">amario</h3>
+        <p class="text-gray-600 mt-2">$2.000.000 COP</p>
+        <button class="bg-blue-500 text-white px-4 py-2 mt-4 rounded hover:bg-blue-600">Añadir al carrito</button>
+      </div>         
+
+    </div>
+  </section>
+
+  <!-- Formulario de compra -->
+<section class="bg-white p-8 mt-8 rounded-lg shadow mx-4 md:mx-32">
+  <h2 class="text-xl font-semibold mb-4">Finalizar Compra</h2>
+  <form class="grid gap-4" onsubmit="validarCompra(event)">
+    <input type="text" id="nombre" placeholder="Nombre completo" class="p-2 border rounded">
+    <input type="email" id="correo" placeholder="Correo electrónico" class="p-2 border rounded">
+    <input type="text" id="direccion" placeholder="Dirección de envío" class="p-2 border rounded">
+    <select id="metodoPago" class="p-2 border rounded">
+      <option value="">Método de pago</option>
+      <option value="tarjeta">Tarjeta de crédito</option>
+      <option value="transferencia">Transferencia bancaria</option>
+      <option value="pse">PSE</option>
+    </select>
+
+    <!-- Botón que reemplaza el <a> -->
+    <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center w-full">
+      Realizar pedido
+    </button>
+
+    <!-- Mensaje de error o éxito -->
+    <p id="mensaje" class="text-center font-semibold"></p>
+  </form>
+</section>
+
+<script>
+  function validarCompra(e) {
+    e.preventDefault(); // Evita envío automático
+
+    const nombre = document.getElementById('nombre').value.trim();
+    const correo = document.getElementById('correo').value.trim();
+    const direccion = document.getElementById('direccion').value.trim();
+    const metodo = document.getElementById('metodoPago').value;
+
+    const mensaje = document.getElementById('mensaje');
+
+    if (!nombre || !correo || !direccion || !metodo) {
+      mensaje.textContent = "❌ Compra fallida: Por favor completa todos los campos.";
+      mensaje.className = "text-red-600 text-center font-semibold";
+    } else {
+      // Redirige si todo está bien
+      window.location.href = "compra-exitosa.html";
+    }
+  }
+</script>
+
+  </section>
+
+  <!-- Preguntas frecuentes -->
+  <section class="p-8">
+    <h2 class="text-xl font-semibold mb-4">Preguntas Frecuentes</h2>
+    <div class="space-y-4">
+      <div>
+        <h3 class="font-bold">¿Hacen envíos a todo el país?</h3>
+        <p>Sí, realizamos envíos a cualquier ciudad de Colombia.</p>
+      </div>
+      <div>
+        <h3 class="font-bold">¿Puedo pagar contra entrega?</h3>
+        <p>Sí, pero solo aplica para algunas ciudades principales.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-gray-200 text-center p-4 mt-12">
+    © 2025 Industria de Alcobas 2JACK Todos los derechos reservados
+  </footer>
+
+
