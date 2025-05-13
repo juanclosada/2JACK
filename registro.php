@@ -178,37 +178,41 @@
         <!DOCTYPE html>
         <html lang="en">
 
-        <div>
+        <div class="container">;
+            <form action="" method="post" class="formulario">
+                <?php
+                ?>
 
-            <head>
+                <head>
 
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome">
-                <link rel="stylesheet" href="register.css">
-                <title>Formulario Registro</title>
-            </head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome">
+                    <link rel="stylesheet" href="register.css">
+                    <title>Formulario Registro</title>
+                </head>
 
-            <body>
-                <section class="form-register">
-                    <H4>Formulario Registro</H4>
-                    <select class="custom-select">
-                        <option class="controls">Seleccione su Rol</option>
-                        <option class="controls">Administrador</option>
-                        <option class="controls">Cliente</option>
-                        <option class="controls">Jefe de bodega</option>
-                        <option class="controls">Analista</option>
-                    </select>
-                    <input class="controls" type="text" name="Nombres" id=" Nombres" placeholder=" Ingrese sus Nombres">
-                    <input class="controls" type="text" name="Apellidos" id=" Apellidos" placeholder=" Ingrese sus Apellidos">
-                    <input class="controls" type="email" name="Correo" id=" Correo" placeholder=" Ingrese su Correo">
-                    <input class="controls" type="password" name="contraseña" id=" contraseña" placeholder=" Ingrese su contraseña">
-                    <input class="controls" type="password" name="contraseña" id=" contraseña" placeholder=" confirme su contraseña">
-                    <p> Estoy de acuerdo con <a href="">Terminos y Condiciones</a> </p>
-                    <input class="button" type="submit" value="Registrar">
-                    <p><a href="#">Ya tengo Cuenta</a></p>
-                </section>
-            </body>
+                <body>
+                    <section class="form-register">
+                        <H4>Formulario Registro</H4>
+                        <select class="custom-select">
+                            <option class="controls">Seleccione su Rol</option>
+                            <option class="controls">Administrador</option>
+                            <option class="controls">Cliente</option>
+                            <option class="controls">Jefe de bodega</option>
+                            <option class="controls">Analista</option>
+                        </select>
+                        <input class="controls" type="text" name="Nombres" id=" Nombres" placeholder=" Ingrese sus Nombres">
+                        <input class="controls" type="text" name="Apellidos" id=" Apellidos" placeholder=" Ingrese sus Apellidos">
+                        <input class="controls" type="email" name="Correo" id=" Correo" placeholder=" Ingrese su Correo">
+                        <input class="controls" type="password" name="contraseña" id=" contraseña" placeholder=" Ingrese su contraseña">
+                        <input class="controls" type="password" name="contraseña" id=" contraseña" placeholder=" confirme su contraseña">
+                        <p> Estoy de acuerdo con <a href="">Terminos y Condiciones</a> </p>
+                        <input class="button" type="submit" value="Registrar">
+                        <p><a href="#">Ya tengo Cuenta</a></p>
+                    </section>
+                </body>
+            </form>
         </div>
 
         </html>
