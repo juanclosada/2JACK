@@ -1,7 +1,6 @@
 <?php
 session_start();
 require 'conexion.php';
-echo "LLEGO.";
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

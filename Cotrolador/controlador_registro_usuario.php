@@ -9,7 +9,7 @@ $contrasena1 =$_POST['contrasena1'];
 $id_rol = $_POST['rol'];
 
 if (strlen($contrasena) < 8 ) {
-        echo "La contraseña debe tener entre 8 y 20 caracteres. <a href='../registro.php'>Registrar Nuevamnete</a>";
+        echo "La contraseña debe tener entre 8 y 20 caracteres. <a href='../registro.php'>Registrar Nuevamente</a>";
 }else{
     
     if ($contrasena == $contrasena1) {
