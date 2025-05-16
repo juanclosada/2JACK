@@ -174,14 +174,13 @@
     <title>Formulario Registro</title>
 </head>
 <body>
-   <form action="/Tienda_2JACK/2JACK/Cotrolador/controlador_registro_usuario.php" method="POST">
+   <form action="/Tienda_2JACK/2JACK/Cotrolador/controlador_inicio_sesion.php" method="POST">
     <section class="form-register"> 
             <H4>Inicio de sesión</H4>
-            <input class="controls" type="text" name="nombre" id="nombre" placeholder=" Ingrese su Usuario"> 
             <input class="controls" type="email" name="correo" id="correo" placeholder=" Ingrese su Correo">
             <input class="controls" type="password" name="contrasena" id="contrasena" placeholder=" Ingrese su contraseña">
         <p> Estoy de acuerdo con <a href="">Terminos y Condiciones</a> </p>
-        <input class="button" type="submit" value="Registrar">
+        <input class="button" type="submit" value="iNICIAR">
         <p><a href="#"> Olvido su contraseña?</a></p>
     </section>
    </form>
