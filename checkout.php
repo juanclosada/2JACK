@@ -29,7 +29,7 @@ while ($item = $carrito->fetch_assoc()) {
 
 // Guardar factura
 if ($total > 0) {
-    $conn->query("INSERT INTO factura (usuario_id, total) VALUES ($usuario_id, $total)");
+    $conn->query("INSERT INTO factura (nombre, total) VALUES ($usuario_id, $total)");
     $conn->query("DELETE FROM carrito WHERE usuario_id = $usuario_id");
 }
 
