@@ -133,7 +133,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link">Inicio</a>
+                            <a href="index.php" class="nav-item nav-link">Inicio</a>
                             <a href="shop.html" class="nav-item nav-link">Tienda</a>
                             <a href="detail.html" class="nav-item nav-link">Detalle de los Productos</a>
                             <div class="nav-item dropdown">
@@ -174,14 +174,13 @@
     <title>Formulario Registro</title>
 </head>
 <body>
-   <form action="/Tienda_2JACK/2JACK/Cotrolador/controlador_registro_usuario.php" method="POST">
+   <form action="/Tienda_2JACK/2JACK/Cotrolador/controlador_inicio_sesion.php" method="POST">
     <section class="form-register"> 
             <H4>Inicio de sesión</H4>
-            <input class="controls" type="text" name="nombre" id="nombre" placeholder=" Ingrese su Usuario"> 
             <input class="controls" type="email" name="correo" id="correo" placeholder=" Ingrese su Correo">
             <input class="controls" type="password" name="contrasena" id="contrasena" placeholder=" Ingrese su contraseña">
         <p> Estoy de acuerdo con <a href="">Terminos y Condiciones</a> </p>
-        <input class="button" type="submit" value="Registrar">
+        <input class="button" type="submit" value="iNICIAR">
         <p><a href="#"> Olvido su contraseña?</a></p>
     </section>
    </form>
