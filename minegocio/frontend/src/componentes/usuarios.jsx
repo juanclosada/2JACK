@@ -1,7 +1,7 @@
 export const usuarios = () => {
     return (
         <div >
-            <h1> usuarios gygygyg</h1>
+            <h1> usuarios </h1>
         </div>
 
     )
