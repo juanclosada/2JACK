@@ -22,7 +22,7 @@ session_destroy();
                 </div>
                 <div class="card-body">
                     <p class="card-text">Has cerrado sesión correctamente.</p>
-                    <a href="Inicio sesion.php" class="btn btn-primary">🔑 Iniciar sesión de nuevo</a>
+                    <a href="Inicio_sesion.php" class="btn btn-primary">🔑 Iniciar sesión de nuevo</a>
 
                 </div>
                 <div class="card-footer text-muted">
