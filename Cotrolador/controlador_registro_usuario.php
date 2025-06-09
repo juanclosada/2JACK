@@ -20,7 +20,7 @@ if (strlen($contrasena) < 8 ) {
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("sssi", $nombre, $correo, $contrasena, $id_rol);
         if ($stmt->execute()) {
-            echo "Usuario registrado correctamente. <a href='../Inicio sesion.php'>Iniciar sesión</a>";
+            echo "Usuario registrado correctamente. <a href='../Inicio_sesion.php'>Iniciar sesión</a>";
         } else {
             echo "Error al registrar usuario: " . $conn->error;
         }
