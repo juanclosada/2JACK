@@ -174,13 +174,13 @@
     <title>Formulario Registro</title>
 </head>
 <body>
-   <form action="/Controlador/controlador_inicio_sesion.php" method="POST">
+   <form action="./Controlador/controlador_inicio_sesion.php" method="POST">
     <section class="form-register"> 
             <H4>Inicio de sesión</H4>
             <input class="controls" type="email" name="correo" id="correo" placeholder=" Ingrese su Correo">
             <input class="controls" type="password" name="contrasena" id="contrasena" placeholder=" Ingrese su contraseña">
         <p> Estoy de acuerdo con <a href="">Terminos y Condiciones</a> </p>
-        <input class="button" type="submit" value="iNICIAR">
+        <input class="button" type="submit" value="Iniciar Sesión">
         <p><a href="#"> Olvido su contraseña?</a></p>
     </section>
    </form>

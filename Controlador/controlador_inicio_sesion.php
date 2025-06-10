@@ -2,7 +2,6 @@
 session_start();
 require 'conexion.php';
 
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $correo = $_POST['correo'];
     $contrasena = $_POST['contrasena'];

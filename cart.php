@@ -3,7 +3,7 @@
 
 
 <?php
-    include 'Cotrolador/conexion.php';
+    include 'Controlador/conexion.php';
    // include 'conexion.php';
     $resultado = $conn->query("SELECT * FROM productos");
     include 'header.php'; // contiene el navbar

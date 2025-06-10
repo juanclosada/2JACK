@@ -102,7 +102,7 @@ session_start();
                 <p class="m-0"><?php   echo $_SESSION['usuario']['rol']; ?></p>
                 <p class="m-0"><?php  echo $_SESSION['usuario']['correo']; ?></p>
                 <p class="m-0">Atencion al Usuario</p>
-                <h5 class="m-0">+057 603520236</h5>
+                <h5 class="m-0">+57 603520236</h5>
             </div>
         </div>
     </div>

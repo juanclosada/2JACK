@@ -1,8 +1,8 @@
 <?php
 session_start();
-include 'Cotrolador/conexion.php';
+include './Controlador/conexion.php';
 if (!isset(  $_SESSION['usuario']['id'])) {
-    header("Location: Inicio sesion.php");
+    header("Location: Inicio_sesion.php");
     exit();
 }
 
