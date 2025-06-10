@@ -191,7 +191,7 @@
                 </head>
 
                 <body>
-                    <form action="/Tienda_2JACK/2JACK/Cotrolador/controlador_registro_usuario.php" method="POST">
+                    <form action="/Controlador/controlador_inicio_sesion.php" method="POST">
                         <section class="form-register" >
                             <H4>Formulario Registro</H4>
                             <select class="custom-select" name="rol" id="rol">

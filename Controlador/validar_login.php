@@ -13,8 +13,15 @@ $result = $stmt->get_result();
 
 if ($result->num_rows === 1) {
     $usuario = $result->fetch_assoc();
-    $_SESSION['usuario'] = $usuario['nombre'];
-    header("Location: dashboard.php");
+    $rol = $usuario['id_rol'];
+    if ($rol == 1) {
+        $_SESSION['rol'] ='admin';
+        header("location: dashboaradmin.php");
+    } else {
+        $_SESSION['rol'] = "usuario";
+    }
+     $_SESSION['usuario'] = $usuario['nombre'];
+     header("Location: dashboard.php");
 } else {
     echo "Usuario o contraseña incorrectos.";
 }
