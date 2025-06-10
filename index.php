@@ -212,7 +212,7 @@
                             </div>
                         </div>
                         <div class="carousel-item position-relative" style="height: 430px;">
-                            <img class="position-absolute w-100 h-100" src="img/MESAS DE NOCHE 1.webp" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="img/MESAS DE NOCHE 1.jpg" style="object-fit: cover;">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Otros artículos</h1>
@@ -226,7 +226,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="product-offer mb-30" style="height: 200px;">
-                    <img class="img-fluid" src="img/MESAS DE NOCHE 10.jfif" alt="">
+                    <img class="img-fluid" src="./img/MESAS DE NOCHE 10.jpg" alt="">
                     <div class="offer-text">
                         <h6 class="text-white text-uppercase">Ahorra 20%</h6>
                         <h3 class="text-white mb-3">Oferta especial</h3>
@@ -234,7 +234,7 @@
                     </div>
                 </div>
                 <div class="product-offer mb-30" style="height: 200px;">
-                    <img class="img-fluid" src="img/JUEGO DE ALCOBA 1.webp" alt="">
+                    <img class="img-fluid" src="img/JUEGO DE ALCOBA 1.jpg" alt="">
                     <div class="offer-text">
                         <h6 class="text-white text-uppercase">Ahorra 20%</h6>
                         <h3 class="text-white mb-3">Oferta especial</h3>
@@ -287,7 +287,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/MESAS DE NOCHE  2.jfif" alt="">
+                            <img class="img-fluid" src="img/MESAS DE NOCHE  2.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Mesas de noche</h6>
@@ -300,7 +300,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/tocador 1.jfif" alt="">
+                            <img class="img-fluid" src="img/tocador 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Tocador</h6>
@@ -313,7 +313,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/CAMACUNA 1.jfif" alt="">
+                            <img class="img-fluid" src="img/CAMACUNA 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Camas</h6>
@@ -326,7 +326,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/armarios 1.jfif" alt="">
+                            <img class="img-fluid" src="img/armarios 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Armarios</h6>
@@ -339,7 +339,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/CAMACUNA 1.jfif" alt="">
+                            <img class="img-fluid" src="img/CAMACUNA 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Camacuna</h6>
@@ -365,7 +365,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/puff 1.jfif" alt="">
+                            <img class="img-fluid" src="img/puff 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Puff</h6>
@@ -378,7 +378,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/escritorio 1.jfif" alt="">
+                            <img class="img-fluid" src="img/escritorio 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Escritorio</h6>
@@ -391,7 +391,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/sofa 1.webp" alt="">
+                            <img class="img-fluid" src="img/sofa 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Sofá</h6>
@@ -404,7 +404,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/tendido 1.jfif" alt="">
+                            <img class="img-fluid" src="img/tendido 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Tendidos</h6>
@@ -417,7 +417,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/JUEGO DE ALCOBA 1.webp" alt="">
+                            <img class="img-fluid" src="img/JUEGO DE ALCOBA 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Juego de alcobas</h6>
@@ -430,7 +430,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/mesa de centro 1.jfif" alt="">
+                            <img class="img-fluid" src="img/mesa de centro 1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Mesa de Centro</h6>
@@ -451,7 +451,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/CAMACUNA 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/CAMACUNA 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -478,7 +478,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/sofa 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/sofa 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -505,7 +505,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/escritorio 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/escritorio 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -586,7 +586,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/armario 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/armario 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -613,7 +613,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/CAMACUNA 3.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/CAMACUNA 3.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -640,7 +640,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/ASIENTO 3.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/ASIENTO 3.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -674,7 +674,7 @@
         <div class="row px-xl-5">
             <div class="col-md-6">
                 <div class="product-offer mb-30" style="height: 300px;">
-                    <img class="img-fluid" src="img/MESAS DE NOCHE 10.jfif" alt="">
+                    <img class="img-fluid" src="img/MESAS DE NOCHE 10.jpg" alt="">
                     <div class="offer-text">
                         <h6 class="text-white text-uppercase">Ahorra 20%</h6>
                         <h3 class="text-white mb-3">Oferta especial</h3>
@@ -684,7 +684,7 @@
             </div>
             <div class="col-md-6">
                 <div class="product-offer mb-30" style="height: 300px;">
-                    <img class="img-fluid" src="img/JUEGO DE ALCOBA 1.webp" alt="">
+                    <img class="img-fluid" src="img/JUEGO DE ALCOBA 1.jpg" alt="">
                     <div class="offer-text">
                         <h6 class="text-white text-uppercase">Ahorra 20%</h6>
                         <h3 class="text-white mb-3">Oferta especial</h3>
@@ -704,7 +704,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/escritorio 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/escritorio 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -731,7 +731,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/escritorio 3.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/escritorio 3.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -758,7 +758,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/puff 1.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/puff 1.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -785,7 +785,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/puff 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/puff 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -812,7 +812,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/sofa 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/sofa 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -839,7 +839,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/sofa 4.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/sofa 4.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -866,7 +866,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/tendido 1.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/tendido 1.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -893,7 +893,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/tendido 2.jfif" alt="">
+                        <img class="img-fluid w-100" src="img/tendido 2.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
