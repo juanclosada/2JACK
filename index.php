@@ -98,7 +98,7 @@
             </div>
             <div class="col-lg-4 col-6 text-right">
                 <p class="m-0">Servicio al Cliente</p>
-                <h5 class="m-0">+057 603520236</h5>
+                <h5 class="m-0">+57 603520236</h5>
             </div>
         </div>
     </div>

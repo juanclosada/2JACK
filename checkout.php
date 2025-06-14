@@ -1,5 +1,5 @@
 <?php
-include 'Cotrolador/conexion.php';
+include 'Controlador/conexion.php';
 session_start();
 include 'header.php'; // contiene el navbar
 

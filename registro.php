@@ -85,7 +85,7 @@
             </div>
             <div class="col-lg-4 col-6 text-right">
                 <p class="m-0">Servicio al Cliente</p>
-                <h5 class="m-0"> +057 603520236</h5>
+                <h5 class="m-0"> +57 603520236</h5>
             </div>
         </div>
     </div>
@@ -191,7 +191,7 @@
                 </head>
 
                 <body>
-                    <form action="./registro.php" method="POST">
+                    <form action="./Controlador/controlador_registro_usuario.php" method="POST">
                         <section class="form-register" >
                             <H4>Formulario Registro</H4>
                             <select class="custom-select" name="rol" id="rol">

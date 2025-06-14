@@ -1,20 +1,20 @@
 <?php
-session_start();
+
 include('conexion.php');
 
 // Obtener datos del formulario
 $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $contrasena = $_POST['contrasena'];
-$contrasena1 =$_POST['contrasena1'];
+$contrasena1 = $_POST['contrasena1'];
 $id_rol = $_POST['rol'];
 
-if (strlen($contrasena) < 8 ) {
-        echo "La contraseña debe tener entre 8 y 20 caracteres. <a href='../registro.php'>Registrar Nuevamente</a>";
-}else{
-    
+if (strlen($contrasena) < 8) {
+    echo "La contraseña debe tener entre 8 y 20 caracteres. <a href='../registro.php'>Registrar Nuevamente</a>";
+} else {
+
     if ($contrasena == $contrasena1) {
-    
+
         // Las contraseñas coinciden, ahora se puede hashear
         // Insertar en la base de datos
         $sql = "INSERT INTO usuarios (nombre, correo, contrasena, id_rol) VALUES (?, ?, ?, ?)";
@@ -26,12 +26,13 @@ if (strlen($contrasena) < 8 ) {
             echo "Error al registrar usuario: " . $conn->error;
         }
     } else {
-        echo "Las contraseñas no coinciden. <a href='../registro.php'>Registrar Nuevamnete</a>";
+        echo "Las contraseñas no coinciden. <a href='../registro.php'>Registrar Nuevamente</a>";
     }
-
-
 }
 
 
 
 $conn->close();
+
+
+?>
