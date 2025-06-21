@@ -10,7 +10,7 @@
 <body>
     <h1>Bienvenido al panel de administración del Vendedor</h1>
     <p>Hola, <?php session_start(); echo $_SESSION['usuario']; ?>. Eres un Vendedor.</p>
-    <a href="logout.php">Cerrar sesión</a>
+    <a href="/2JACK/logout.php">Cerrar sesión</a>
 
     <h2>Menu Vendedor</h2>
     <ul>
