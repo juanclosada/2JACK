@@ -16,7 +16,7 @@
 
     <h1>Bienvenido al panel de administración</h1>
     <p>Hola, <?php session_start(); echo $_SESSION['usuario']; ?>. Eres un Administrador.</p>
-    <button onclick="goBack()">Regresar</button>
+    <a href="/2JACK/logout.php">Cerrar sesión</a>
         
     <h2>Opciones de administración</h2>
     <ul>

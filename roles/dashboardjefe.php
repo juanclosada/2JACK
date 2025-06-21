@@ -1,7 +1,16 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <header>
+    <?php
+   
+   require_once '../header.php'; // contiene el navbar
+    ?>
+    </header>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jefe de Bodega</title>
@@ -20,3 +29,7 @@
 </body>
 
 </html>
+<?php
+   // include 'conexion.php';
+   include '../Footer.php'; // contiene el navbar
+?>

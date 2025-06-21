@@ -60,14 +60,16 @@
         <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
             <div class="col-md-6 px-xl-0">
                 <p class="mb-md-0 text-center text-md-left text-secondary">
-                    &copy; <a class="text-primary" href="#">Domain</a>. Todos los Derechos reservados. Designed
-                    by
-                    <a class="text-primary" href="https://html.com">HTML Codex</a>
+                    &copy; <a class="text-primary" href="#">2JACK</a>. Todos los Derechos reservados. Diseñado por:
+                    <a class="text-primary" href="https://htmlcodex.com">Industria de Muebles 2JACK</a>
                 </p>
             </div>
-            <div class="col-md-6 px-xl-0 text-center text-md-right">
+                <div class="col-md-6 px-xl-0 text-center text-md-right">
                 <img class="img-fluid" src="img/payments.png" alt="">
+                 </div>
+             </div>
             </div>
+            
         </div>
     </div>
     <!-- Footer End -->

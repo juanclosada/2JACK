@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <?php
+    session_start();
     include 'Controlador/conexion.php';
-   // include 'conexion.php';
     $resultado = $conn->query("SELECT * FROM productos");
     include 'header.php'; // contiene el navbar
     $carrito = $conn->query(" SELECT c.*, p.nombre, p.precio 
     FROM carrito c 
     JOIN productos p ON c.producto_id   = p.id_producto 
-    WHERE c.usuario_id = " . $_SESSION['usuario']['id']
+    WHERE c. id_usuario = " . $_SESSION['usuarios']['id_rol']
 );
 ?>
 
