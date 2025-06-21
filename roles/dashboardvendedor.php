@@ -14,8 +14,8 @@
 
     <h2>Menu Vendedor</h2>
     <ul>
-        <li><a href="gestionar_productos.php">Gestionar productos</a></li>
-        <li><a href="ver_reportes.php">Ver reportes</a></li>
+        <li><a href="/2JACK/roles/administracionRoles/GestionarProductos.php">Gestionar productos</a></li>
+        <li><a href="/2JACK/roles/administracionRoles/VerReportes.php">Ver reportes</a></li>
     </ul>
 </body>
 

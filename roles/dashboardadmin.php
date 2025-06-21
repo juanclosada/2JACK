@@ -14,9 +14,9 @@
 
     <h2>Opciones de administración</h2>
     <ul>
-        <li><a href="gestionar_usuarios.php">Gestionar usuarios</a></li>
-        <li><a href="ver_reportes.php">Ver reportes</a></li>
-        <li><a href="configuracion.php">Configuración del sistema</a></li>
+        <li><a href="/2JACK/roles/AdministracionRoles/GestionarUsuarios.php">Gestionar usuarios</a></li>
+        <li><a href="/2JACK/roles/AdministracionRoles/VerReportes.php">Ver reportes</a></li>
+        <li><a href="/2JACK/roles/AdministracionRoles/ConfiguracionSistema.php">Configuración del sistema</a></li>
     </ul>
 </body>
 
