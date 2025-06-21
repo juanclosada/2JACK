@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <head>
     <meta charset="utf-8">
     <title>INDUSTRIA ALCOBAS 2JACK</title>
@@ -10,11 +6,11 @@ session_start();
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/Favicon.jpg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -24,7 +20,7 @@ session_start();
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/2JACK/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,24 +40,24 @@ session_start();
                     <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Mi Cuenta</button>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a href=" sesion.php">Inicio de Sesión</a>
-                            <a href="registro.php">Registrese Aqui</a>
+                            <a href="/2JACK/inicio_sesion.php">Inicio de Sesión</a>
+                            <a href="/2JACK/registro.php">Registrese Aqui</a>
                         </div>
                     </div>
                     <div class="btn-group mx-2">
                         <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">COP</button>
                         <div class="dropdown-menu dropdown-menu-right">
                             <button class="dropdown-item" type="button">EUR</button>
+                            <button class="dropdown-item" type="button">VOB</button>
                             <button class="dropdown-item" type="button">USD</button>
-                            <button class="dropdown-item" type="button">VEB</button>
                         </div>
                     </div>
                     <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">ES</button>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <button class="dropdown-item" type="button">EN</button>
-                            <button class="dropdown-item" type="button">FRE</button>
+                            <button class="dropdown-item" type="button">FR</button>
                             <button class="dropdown-item" type="button">PORT</button>
+                            <button class="dropdown-item" type="button">EN</button>
                         </div>
                     </div>
                 </div>
@@ -88,7 +84,7 @@ session_start();
             <div class="col-lg-4 col-6 text-left">
                 <form action="">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Buscar Productos">
+                        <input type="text" class="form-control" placeholder="Buscar productos">
                         <div class="input-group-append">
                             <span class="input-group-text bg-transparent text-primary">
                                 <i class="fa fa-search"></i>
@@ -98,10 +94,7 @@ session_start();
                 </form>
             </div>
             <div class="col-lg-4 col-6 text-right">
-                <p class="m-0"><?php  echo $_SESSION['usuario']['nombre'];  ?></p>
-                <p class="m-0"><?php   echo $_SESSION['usuario']['rol']; ?></p>
-                <p class="m-0"><?php  echo $_SESSION['usuario']['correo']; ?></p>
-                <p class="m-0">Atencion al Usuario</p>
+                <p class="m-0">Servicio al Cliente</p>
                 <h5 class="m-0">+57 603520236</h5>
             </div>
         </div>
@@ -122,9 +115,9 @@ session_start();
                         <div class="nav-item dropdown dropright">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Muebles <i class="fa fa-angle-right float-right mt-1"></i></a>
                             <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
-                                <a href="" class="dropdown-item">Camacuna</a>
-                                <a href="" class="dropdown-item">Sillas</a>
                                 <a href="" class="dropdown-item">Mesas de Noche</a>
+                                <a href="" class="dropdown-item">Sillas</a>
+                                <a href="" class="dropdown-item">Camacuna</a>
                             </div>
                         </div>
                         <a href="" class="nav-item nav-link">Mesas de Noche</a>
@@ -154,28 +147,27 @@ session_start();
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.php" class="nav-item nav-link">Inicio</a>
-                            <a href="shop.html" class="nav-item nav-link">Tienda</a>
-                            <a href="detail.html" class="nav-item nav-link">Detalle de los Productos</a>
+                            <a href="/2JACK/index.php" class="nav-item nav-link active">Inicio</a>
+                            <a href="/2JACK/shop.html" class="nav-item nav-link">Tienda</a>
+                            <a href="/2JACK/detail.html" class="nav-item nav-link">Detalle de los Productos</a>
                             <div class="nav-item dropdown">
-                                <a href="cart.php" class="nav-link dropdown-toggle active" data-toggle="dropdown">Compras <i class="fa fa-angle-down mt-1"></i></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Páginas <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                                    <a href="cart.php" class="dropdown-item active">carrito de Compras</a>
-                                    <a href="checkout.html" class="dropdown-item">Realizar Pagos</a>
+                                    <a href="/2JACK/cart.html" class="dropdown-item">Carrito de Compra</a>
+                                    <a href="/2JACK/checkout.html" class="dropdown-item">Realizar Pagos</a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contactenos</a>
-                             <a href="logout.php" class="nav-item nav-link">CERRAR</a>
+                            <a href="/2JACK/contact.html" class="nav-item nav-link">Contactenos</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <a href="" class="btn px-0">
                                 <i class="fas fa-heart text-primary"></i>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                           <a href="/2JACK/cart.php" class="btn px-0 ml-3">
+                            <i class="fas fa-shopping-cart text-primary"></i>
+                            <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
                             </a>
-                            <a href="" class="btn px-0 ml-3">
-                                <i class="fas fa-shopping-cart text-primary"></i>
-                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
-                            </a>
+                            
                         </div>
                     </div>
                 </nav>
@@ -183,20 +175,3 @@ session_start();
         </div>
     </div>
     <!-- Navbar End -->
-
-
-    <!-- Breadcrumb Start -->
-    <div class="container-fluid">
-        <div class="row px-xl-5">
-            <div class="col-12">
-                <nav class="breadcrumb bg-light mb-30">
-                    <a class="breadcrumb-item text-dark" href="cart.php">Inicio</a>
-                    <a class="breadcrumb-item text-dark" href="cart.php">Tienda</a>
-                    <span class="breadcrumb-item active">Carrito de Compras</span>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb End -->
-
-</body>
