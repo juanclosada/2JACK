@@ -1,9 +1,12 @@
-    <!-- Footer Start -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Footer Start -->
     <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
         <div class="row px-xl-5 pt-5">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <h5 class="text-secondary text-uppercase mb-4">Póngase en Contactenos</h5>
-                <p class="mb-4"> Somos una empresa a la vanduardia en diseños futurista de Muebles. Es tu sueño que podemos hacer realidad</p>
+                <p class="mb-4"> Somos una empresa a la vanguardia en diseños futurista de Muebles. Es tu sueño que podemos hacer realidad</p>
                 <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>calle 138# 54c-40, Bogota, Colombia</p>
                 <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@industria2jack.com</p>
                 <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+057 603520236</p>
