@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             echo "✅ Bienvenido " . $usuario['nombre'] . " (Rol: " . $usuario['rol_nombre'] . ")";
             // Redireccionar a una página protegida
-            header("Location:../cart.php");
+            header("Location:../Controlador/validar_login.php");
             // exit;
         } else {
             echo "❌ Contraseña incorrecta. <a href='../Inicio_sesion.php'>Ingresar Nuevamente</a>";

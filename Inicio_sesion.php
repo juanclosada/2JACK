@@ -174,7 +174,7 @@
     <title>Formulario Registro</title>
 </head>
 <body>
-   <form action="./Controlador/controlador_inicio_sesion.php" method="POST">
+   <form action="./Controlador/validar_login.php" method="POST">
     <section class="form-register"> 
             <H4>Inicio de sesión</H4>
             <input class="controls" type="email" name="correo" id="correo" placeholder=" Ingrese su Correo">

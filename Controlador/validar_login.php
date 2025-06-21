@@ -16,13 +16,30 @@ if ($result->num_rows === 1) {
     $rol = $usuario['id_rol'];
     if ($rol == 1) {
         $_SESSION['rol'] ='admin';
-        header("location: dashboaradmin.php");
+        header("location: ../roles/dashboardadmin.php");
     } else {
+         if ($rol == 2) {
+        $_SESSION['rol'] ='Jefe de bodega';
+        header("location: ../roles/dashboardjefe.php");
+            }   
+            
+        if ($rol == 4) {
+        $_SESSION['rol'] ='Vendedor';
+        header("location: ../roles/dashboardvendedor.php");
+            }
+
+        if ($rol == 3) {
+        $_SESSION['rol'] ='cliente';
+        header("location: ../roles/dashboardcliente.php");
+            }
         $_SESSION['rol'] = "usuario";
+        $_SESSION['usuario'] = $usuario['nombre'];
     }
-     $_SESSION['usuario'] = $usuario['nombre'];
-     header("Location: dashboard.php");
+        
+    //  header("Location: dashboard.php");
 } else {
     echo "Usuario o contraseña incorrectos.";
 }
+    
+
 ?>
