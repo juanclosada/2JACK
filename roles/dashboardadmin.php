@@ -21,3 +21,7 @@
 </body>
 
 </html>
+<?php
+   // include 'conexion.php';
+    include '../Footer.php'; // contiene el navbar
+?>

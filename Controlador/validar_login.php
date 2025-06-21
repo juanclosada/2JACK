@@ -38,7 +38,7 @@ if ($result->num_rows === 1) {
         
     //  header("Location: dashboard.php");
 } else {
-    echo "Usuario o contraseña incorrectos.";
+    echo " ❌ Usuario o Contraseña incorrecta. <a href='../Inicio_sesion.php'>Ingresar Nuevamente</a" ;
 }
     
 
